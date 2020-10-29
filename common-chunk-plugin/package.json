@@ -1,0 +1,19 @@
+{
+  "name": "common-chunk-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.5.1"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "webpack": "^3.0.0"
+  }
+}
